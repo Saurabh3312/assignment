@@ -1,0 +1,61 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-image: url('./1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    color: white; /* Adjust text color for better readability */
+}
+
+.welcome{
+    padding-left: 30%;
+    margin-bottom: 50px;
+    margin-top: 10px;
+    background-color:rgb(191, 144, 58);
+    border-radius: 20px;
+    color: #ffff;
+
+}
+.upper-box{
+    padding-left: 30%;
+    margin-top: 80px;
+    margin-bottom: 20px;
+    text-decoration:solid;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+
+.mid-box{
+    /* padding-left: 20%; */
+    background-color: rgb(191, 144, 58);
+    width: 50%;
+    height: 200px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 20px;
+    margin-left: 20px;
+}
+
+.lower-box{
+    /* margin-top: 100px; */
+    margin-top: 100px;
+    padding-top: 10px;
+    background-color: darkslategrey;
+    color: #ffff;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.icons ion-icon{
+    color: #fff;
+    font-size: 30px;
+    padding-left: 14px;
+    padding-top: 5px;
+    transition: 0.3s ease;
+}
+.icons ion-icon:hover{
+    color: #ff7200;
+}
